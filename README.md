@@ -1,9 +1,11 @@
 # Sendspin node (ESPHome)
 
 [`sendspin-node.yaml`](sendspin-node.yaml) is a [Sendspin](https://esphome.io/components/sendspin/) player for
-Music Assistant: a 38-pin ESP32-WROVER devkit on the ESP32 HA Proto carrier (v3, `~/src/esp32-ha-protoboard`),
-with an I2S DAC module wired to it. The I2S pins are the ones the 2022 audio art boards used
-([`../src/main.cpp`](../src/main.cpp)), three adjacent pins on the devkit's header.
+Music Assistant: a 38-pin ESP32-WROVER devkit on the ESP32 HA Proto carrier board (v3), with an I2S DAC module
+wired to it. The I2S pins are the ones the 2022 audio art boards used
+([audio-art-esp32-mesh](https://github.com/somebox/audio-art-esp32-mesh), `src/main.cpp`), three adjacent pins on
+the devkit's header. The carrier isn't published; without it, wire the DAC straight to the devkit's pins, and
+give the LED and the WS2812 output their own MOSFET and 3.3 V to 5 V buffer.
 
 Two nodes are built, with the same firmware:
 

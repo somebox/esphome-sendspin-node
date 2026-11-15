@@ -9,7 +9,7 @@
 #   esphome run sendspin-node-syslog.yaml --device sendspin-node-XXXXXX.local
 
 substitutions:
-  # The machine that listens for the log.
+  # The machine that listens for the log; set it to yours.
   log_host: 192.168.1.50
 
 packages:

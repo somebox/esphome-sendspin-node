@@ -1,8 +1,8 @@
 # Sendspin audio node: ESP32-WROVER devkit + I2S DAC on the ESP32 HA Proto
 #
-# A 38-pin ESP32-WROVER devkit on the ESP32 HA Proto carrier (v3, see
-# ~/src/esp32-ha-protoboard), with an I2S DAC module wired to it (a PCM5102
-# or a CJMCU-1334; README.md has the wiring for each). The ESP32 must be a
+# A 38-pin ESP32-WROVER devkit on the ESP32 HA Proto carrier board (v3),
+# with an I2S DAC module wired to it (a PCM5102 or a CJMCU-1334; README.md
+# has the wiring for each). The ESP32 must be a
 # WROVER module (with PSRAM); see README.md for why, and for the pin choices
 # and the carrier's jumpers. It is a Sendspin player for Music Assistant.
 # AirPlay comes from Music Assistant's AirPlay Receiver plugin, which
